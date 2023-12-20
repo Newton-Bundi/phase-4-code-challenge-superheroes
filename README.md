@@ -22,13 +22,13 @@ npm install --prefix client
 There is some starter code in the `app/seed.py` file so that once you've
 generated the models, you'll be able to create data to test your application.
 
-You can run your Flask API on [`localhost:5555`](http://localhost:5555) by running:
+You can run your Flask API on [`localhost:5555`](http://localhost:5555) by running the following in the app directory:
 
 ```sh
 python app.py
 ```
 
-You can run your React app on [`localhost:4000`](http://localhost:4000) by running:
+You can run your React app on [`localhost:4000`](http://localhost:4000) by running the following in the client directory:
 
 ```sh
 npm start --prefix client
