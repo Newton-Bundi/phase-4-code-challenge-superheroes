@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-marshmallow="*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+flask-restful = "0.3.9"
+pytest = "*"
+faker = "*"
+sqlalchemy-serializer = "1.4.1"
+flask-cors = "3.0.10"
+marshmallow-sqlalchemy = "*"
+
+[requires]
+python_version = "3.8.13"
